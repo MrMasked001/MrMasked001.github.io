@@ -17,9 +17,30 @@ html {
 
 #Post {
     background: #466368;
-    background: -webkit-linear-gradient(#04061f, #04061f);
-    background: -moz-linear-gradient(#04061f, #04061f);
-    background: linear-gradient(#04061f #04061f);
+    background: -webkit-linear-gradient(#000000, #000000);
+    background: -moz-linear-gradient(#000000, #000000);
+    background: linear-gradient(#000000 #000000);
+    border: #000000;
+    border-radius: 20px;
+}
+
+#foot {
+    background: #466368;
+    background: -webkit-linear-gradient(#000000, #000000);
+    background: -moz-linear-gradient(#000000, #000000);
+    background: linear-gradient(#000000 #000000);
+}
+
+#social {
+    background: #466368;
+    background: -webkit-linear-gradient(#3f3f3f, #3f3f3f);
+    background: -moz-linear-gradient(#3f3f3f, #3f3f3f);
+    background: linear-gradient(#3f3f3f #3f3f3f);
+    border: #000000;
+    border-radius: 20px;
+    width: 200px;
+    height: 100px;
+    margin: auto
 }
 
 #three {
@@ -129,7 +150,8 @@ body {
 
 .fade-in-text {
     display: inline-block;
-    font-family: 'Minecraft', sans-serif; ;
+    font-family: 'Minecraft', sans-serif;
+    ;
     font-size: 50px;
     color: rgb(241, 228, 228);
     animation: fadeIn linear 2s;
@@ -137,37 +159,53 @@ body {
     -moz-animation: fadeIn linear 2s;
     -o-animation: fadeIn linear 2s;
     -ms-animation: fadeIn linear 2s;
-    
-  }
+}
 
- 
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
-  @keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
-  
-  @-moz-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
-  
-  @-webkit-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
-  
-  @-o-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
-  
-  @-ms-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
-  .anime{
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.anime {
     animation-delay: linear 3s;
-  }
+}
