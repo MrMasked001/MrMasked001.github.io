@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&display=swap');
 html {
     background: url(src/BG.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -16,16 +17,13 @@ html {
 }
 
 #Post {
-    background: #466368;
-    background: -webkit-linear-gradient(#000000, #000000);
-    background: -moz-linear-gradient(#000000, #000000);
-    background: linear-gradient(#000000 #000000);
+    background: #37474f;
     border: #000000;
     border-radius: 20px;
 }
 
 #foot {
-    background: #466368;
+    background: #37474f;
     background: -webkit-linear-gradient(#000000, #000000);
     background: -moz-linear-gradient(#000000, #000000);
     background: linear-gradient(#000000 #000000);
