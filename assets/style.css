@@ -1,157 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&display=swap');
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Light.woff2') format('woff2'), url('OpenSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Bold.woff2') format('woff2'), url('Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
 html {
     background-color: #000000;
-    -webkit-background-size: auto;
-    -moz-background-size: auto;
-    -o-background-size: auto;
-    background-size: auto;
 }
 
-#one {
-    color: rgb(224, 114, 114)
-}
-
-#two {
-    color: rgb(81, 134, 248);
-    font-family: 'Courier New', Courier, monospace
-}
-
-#Post {
-    background: rgba(169, 158, 35, 0.50);
-    border: #000000;
-    border-radius: 20px;
-}
-
-#foot {
-    background: #37474f;
-    background: -webkit-linear-gradient(#000000, #000000);
-    background: -moz-linear-gradient(#000000, #000000);
-    background: linear-gradient(#000000 #000000);
-}
-
-#social {
-    background: #466368;
-    background: -webkit-linear-gradient(#3f3f3f, #3f3f3f);
-    background: -moz-linear-gradient(#3f3f3f, #3f3f3f);
-    background: linear-gradient(#3f3f3f #3f3f3f);
-    border: #000000;
-    border-radius: 20px;
-    width: 200px;
-    height: 100px;
-    margin: auto
-}
-
-#three {
-    color: rgb(145, 145, 145)
-}
-
-.button2 {
-    background-color: #5fc478;
-    padding: 5px 10px;
-    border-radius: 2px;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.button3 {
-    background-color: #8586ddbe;
-    padding: 10px 24px;
-    border-radius: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    border: none;
-}
-
-#four {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-#five {
-    font-family: 'Courier New'
-}
-
-#six {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-}
-
-#landing-content {
-    overflow: hidden;
-    background-image: url(http://i.imgur.com/F2FPRMd.jpg);
-    width: 100%;
-    background-size: 150% 150%;
-    background-repeat: no-repeat;
-    max-height: 500px;
-    border-bottom: solid;
-    border-bottom-color: #628027;
-    border-bottom-width: 5px;
-}
-
-.slider {
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    padding-top: 200px;
-    max-width: 1002px;
-}
-
-.slider img {
-    width: 80%;
-    padding-left: 10%;
-    padding-right: 10%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-
+html,
 body {
-    transition: 0.3s ease;
+    margin: 0px;
+    padding: 0px;
 }
 
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+.container {
+    background: linear-gradient(-180deg, rgba(207, 20, 20, 0.5)0%, rgba(247, 78, 78, 0.87)100%);
+    background: url("Splash.jpg") no-repeat center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
 }
 
-@-moz-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+.loader {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    height: 40px;
 }
 
-@-webkit-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+.loader object {
+    width: 40px;
 }
 
-@-o-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+.content {
+    text-align: center;
+    padding-top: 23%;
 }
 
-@-ms-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-.anime {
-    animation-delay: linear 3s;
+.content span {
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 58px;
+    font-weight: 300;
+    color: rgb(155, 0, 0);
+    display: none;
+    font-style: inherit;
 }
 
 .btn {
@@ -188,38 +90,30 @@ body {
     border-color: #8a75cd;
     color: #8a75cd;
     border-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    color: rgb(85, 85, 85);
 }
 
 .btn:hover {
-    background: rgb(0, 0, 0);
-    color: #ffffff;
-    border-color: rgb(197, 201, 0);
+    background: rgb(189, 0, 0);
+    color: #000000;
+    border-color: rgb(204, 201, 0);
 }
 
-.content {
-    text-align: center;
-    padding-top: 23%;
-    padding-bottom: 23%;
-}
-
-.content span {
-    font-family: 'Gemunu Libre', sans-serif;
-    font-size: 70px;
-    font-weight: 300;
-    color: rgb(85, 85, 85);
-    border: 10px rgb(165, 162, 0);
-}
-
-.container {
-    background: url(Splash.jpg) no-repeat center center fixed;
-    width: 95vw;
-    height: 100vh;
-    position: center;
+.noselect {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+#Post {
+    padding: 20px;
+    background-color: rgb(102, 102, 102);
+    border-radius: 15px;
+}
+
+#foot {
+    font-family: 'Gemunu Libre', sans-serif;
 }

@@ -2,115 +2,80 @@
 <html>
 
 <head>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&display=swap');
-        .button3 {
-            background-color: #f44336;
-            padding: 10px 24px;
-            border-radius: 12px;
-        }
-        
-        .button2 {
-            background-color: #5fc478;
-            padding: 5px 10px;
-            border-radius: 2px;
-        }
-        
-        input[type=text] {
-            width: 14.25%;
-            padding: 12px 20px;
-            margin: 10px 2;
-            box-sizing: border-box;
-            border: none;
-            background-color: #0c3080;
-            color: white;
-        }
-    </style>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-
-    <title>Devil Client</title>
-
-    <link href="assets/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/style.css" rel="stylesheet" type="text/css">
     <script src="assets/jquery.min.js"></script>
     <script src="assets/script.js"></script>
+
+
 </head>
 
 
-<body>
-    <p>
+<body class="noselect">
+    <div class="container">
+        <div class="content">
+            <div class="process">
 
-        <div class="container">
-            <div class="content">
-                <div class="process">
-
-
-                    <span id="load">&nbsp;DEVIL CLIENT</span>
-
-
-                </div>
-            </div>
-
-
-
-
-            <div>
-
+                <span id="intro">Welocome</span>
+                <span id="load">DEVIL CLIENT</span>
 
             </div>
-            <div class="btn-group">
-                <p align="center">
-                    <a href="index.html">
-                        <btn class="btn">Home</btn>
-                    </a>
-                    <a href="Files/Devil-Client-Minecraft-clientV1.0.zip">
-                        <btn class="btn">Download</btn>
-                    </a>
+            <span id="close"><btn class="btn"><a href="Files/Devil-Client-Minecraft-clientV1.0.zip">Download</a></btn></span>
+        </div>
 
-                </p>
-            </div>
+    </div>
 
+    <div class="loader">
 
-            <div id="Post">
-                <p align="center">
-                    <h1 align="center" style="color:#E1518D">Patch Notes 1.0(Beta)</h1>
-                    <p align="left" style="color: #A40E4C;font-size: 30px;"> I proudly present you the Devil Client.</p>
+        <object type="image/svg+xml" data="assets/spinner.svg"></object>
 
-                    <p align="left" style="color: #64072e;font-size: 30px;"> V1.0 Features-.</p>
-                    <p align="left" style="color: #1d1b70;font-size: 30px;"> &nbsp;&nbsp;1.Added 1.7 animation for Sword and Bow.</p>
-                    <p align="left" style="color: #161563;font-size: 30px;"> &nbsp;&nbsp;2.Custom Main menu.</p>
-                    <p align="left" style="color: #1f1e7e;font-size: 30px;"> &nbsp;&nbsp;3.My own custom eating animation(You might not notice it cuz it looks weird).</p>
-                </p>
-            </div>
+    </div>
+    <div class="btn-group">
+        <p align="center">
+            <a href="index.html">
+                <btn class="btn">Home</btn>
+            </a>
+            <a href="Files/Devil-Client-Minecraft-clientV1.0.zip">
+                <btn class="btn">Download</btn>
+            </a>
+
+        </p>
+    </div>
 
 
+    <div id="Post">
+        <p align="center">
+            <h1 align="center" style="color:#E1518D">Patch Notes 1.0(Beta)</h1>
+            <p align="left" style="color: #A40E4C;font-size: 30px;"> I proudly present you the Devil Client.</p>
 
-
-            <div id="social">
-                <p align="center" style="font-size: 15px; color: #993f65; font-style: oblique;font-family: fantasy;">Follow me on socials
-
-                </p>
-                <p align="center">
-                    <a href="https://www.instagram.com/mr._masked/"><img src="src/insta.png" style="width: 50px; height: 50px;"></a>
-                    <a href="https://github.com/MrMasked001/Devil-Client/releases/tag/Minecraft-client"><img src="src/git.png" style="width: 50px; height: 50px;"></a>
-                    <a href="https://twitter.com/mrMASKED_"><img src="src/twitter.png" style="width: 50px; height: 50px;"></a>
-                </p>
-            </div>
-
-
-            <div id="foot">
-                <p align="center"></p>
-            </div>
+            <p align="left" style="color: #64072e;font-size: 30px;"> V1.0 Features-.</p>
+            <p align="left" style="color: #1d1b70;font-size: 30px;"> &nbsp;&nbsp;1.Added 1.7 animation for Sword and Bow.</p>
+            <p align="left" style="color: #161563;font-size: 30px;"> &nbsp;&nbsp;2.Custom Main menu.</p>
+            <p align="left" style="color: #1f1e7e;font-size: 30px;"> &nbsp;&nbsp;3.My own custom eating animation(You might not notice it cuz it looks weird).</p>
+        </p>
+    </div>
 
 
 
 
+    <div id="social">
+        <p align="center" style="font-size: 15px; color: #ffffff; font-style: oblique;font-family: fantasy;">Follow me on socials
+
+        </p>
+        <p align="center">
+            <a href="https://www.instagram.com/mr._masked/"><img src="src/insta.png" style="width: 50px; height: 50px;"></a>
+            <a href="https://github.com/MrMasked001/Devil-Client/releases/tag/Minecraft-client"><img src="src/git.png" style="width: 50px; height: 50px;"></a>
+            <a href="https://twitter.com/mrMASKED_"><img src="src/twitter.png" style="width: 50px; height: 50px;"></a>
+        </p>
+    </div>
 
 
-
+    <div id="foot">
+        <p align="right" style="color: #ffffff; padding-right: 10px;">Not afflitrated with Mojang Studios.</p>
+    </div>
 
 
 
 </body>
+
 
 </html>
