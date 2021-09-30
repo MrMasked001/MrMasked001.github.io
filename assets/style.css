@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&display=swap');
 html {
-    background: url(Splash.jpg) no-repeat center center fixed;
+    background-color: #000000;
     -webkit-background-size: auto;
     -moz-background-size: auto;
     -o-background-size: auto;
@@ -212,6 +212,7 @@ body {
 }
 
 .container {
+    background: url(Splash.jpg) no-repeat center center fixed;
     width: 95vw;
     height: 100vh;
     position: center;
