@@ -14,8 +14,8 @@
 }
 
 html {
-    background-image: url("star.jpg");
-    background-repeat: no-repeat;
+    background-color: #000000;
+    background-repeat: repeat;
     background-size: cover;
 }
 
@@ -91,7 +91,7 @@ body {
     border-radius: 0;
     border-color: #8a75cd;
     color: #8a75cd;
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(177, 177, 177);
     color: rgb(139, 139, 139);
 }
 
@@ -111,9 +111,10 @@ body {
 }
 
 #Post {
+    background-image: url("star.jpg");
     padding: 20px;
     background-color: rgba(102, 102, 102, 0.30);
-    border-radius: 15px;
+    border-radius: 50px;
 }
 
 #foot {
