@@ -19,6 +19,7 @@ function finished() {
         $('#done').fadeIn(1000).delay(2000).fadeOut(function() {
 
             $('#close').fadeIn(1000)
+            $('close1').fadeIn(1000)
 
         });
 
