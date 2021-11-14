@@ -233,3 +233,26 @@ body {
     transform: scale(1.2);
     /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+.zoom5 {
+    /*Dis*/
+    background-color: #410000;
+    padding: 50px;
+    background-image: url("1.png");
+    transition: transform .2s;
+    /* Animation */
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 60px;
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.zoom5:hover {
+    -webkit-filter: grayscale(0%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    transform: scale(1.2);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
