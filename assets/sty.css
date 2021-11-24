@@ -256,3 +256,20 @@ body {
     transform: scale(1.2);
     /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+.cards {
+    display: flex;
+
+    /* Put a card in the next row when previous cards take all width */
+    flex-wrap: wrap;
+
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.cards__item {
+    /* There will be 4 cards per row */
+    flex-basis: 25%;
+
+    padding-left: 8px;
+    padding-right: 8px;
+}
