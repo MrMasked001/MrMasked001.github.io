@@ -28,7 +28,7 @@ body {
 .cont {
     background: linear-gradient(-180deg, rgba(207, 20, 20, 0.5)0%, rgba(247, 78, 78, 0.87)100%);
     background: url("E.jpg") no-repeat center;
-    width: 100vw;
+    width: auto;
     height: 100vh;
     position: relative;
 }
