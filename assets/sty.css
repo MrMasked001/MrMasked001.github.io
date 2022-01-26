@@ -71,7 +71,7 @@ body {
     border: 10px solid transparent;
     white-space: nowrap;
     padding: 6px 12px;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 1.42857143;
     border-radius: 4px;
     -webkit-user-select: none;
@@ -92,7 +92,7 @@ body {
     border-radius: 0;
     border-color: #8a75cd;
     color: #8a75cd;
-    border-color: rgb(177, 177, 177);
+    border-color: rgb(0, 0, 0);
     color: rgb(139, 139, 139);
 }
 
@@ -113,7 +113,7 @@ body {
     border: 10px solid transparent;
     white-space: nowrap;
     padding: 6px 12px;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 1.42857143;
     border-radius: 4px;
     -webkit-user-select: none;
@@ -134,7 +134,7 @@ body {
     border-radius: 0;
     border-color: #cd7575;
     color: #cd7575;
-    border-color: rgb(177, 177, 177);
+    border-color: rgb(255, 255, 255);
     color: rgb(139, 139, 139);
 }
 
