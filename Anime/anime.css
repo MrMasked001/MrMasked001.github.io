@@ -1,5 +1,6 @@
-.html{
+body{
     background-color: black;
+    color: rgb(97, 97, 97);
 }
 
 .kemicofa-row {
@@ -23,6 +24,7 @@
 
 .kemicofa-row .card > .card-content {
     flex-grow: 1;
+    color:black;
 }
 
 .kemicofa-row .card > .card-image {

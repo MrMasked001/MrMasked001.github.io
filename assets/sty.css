@@ -26,8 +26,9 @@ body {
 }
 
 .cont {
-    background: linear-gradient(-180deg, rgba(207, 20, 20, 0.5)0%, rgba(247, 78, 78, 0.87)100%);
-    background: url("E.jpg") no-repeat center;
+    background-image: linear-gradient(rgb(0, 0, 0) 90%, rgba(255, 255, 0, 0));
+    
+    
     width: auto;
     height: 100vh;
     position: relative;
@@ -53,7 +54,7 @@ body {
     font-family: 'Gemunu Libre', sans-serif;
     font-size: 58px;
     font-weight: 300;
-    color: rgb(177, 27, 97);
+    
     display: none;
     font-style: inherit;
 }
@@ -100,6 +101,49 @@ body {
     color: #000000;
     border-color: rgb(37, 51, 97);
 }
+.btn1 {
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 10px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    min-width: 170px;
+    border: 3px solid;
+    padding: 17px 0;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    border-radius: 0;
+    border-color: #cd7575;
+    color: #cd7575;
+    border-color: rgb(177, 177, 177);
+    color: rgb(139, 139, 139);
+}
+
+.btn1:hover {
+    background: rgb(146, 40, 40);
+    color: #000000;
+    border-color: rgb(97, 46, 37);
+}
+
 
 .noselect {
     -webkit-touch-callout: none;
@@ -114,151 +158,9 @@ body {
     background-color: #2c2c2c;
     border-radius: 20px
 }
-
-.zoom {
-    background-color: #410000;
-    padding: 50px;
-    background-image: url("BG2.png");
-    transition: transform .2s;
-    /* Animation */
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-    border-radius: 60px;
-    -webkit-filter: grayscale(100%);
-    /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-}
-
-.zoom:hover {
-    -webkit-filter: grayscale(0%);
-    /* Safari 6.0 - 9.0 */
-    filter: grayscale(0%);
-    transform: scale(1.2);
-    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-
-.zoom1 {
-    /*Twitter */
-    background-color: #410000;
-    padding: 50px;
-    background-image: url("Twitter.png");
-    transition: transform .2s;
-    /* Animation */
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
-    border-radius: 60px;
-    -webkit-filter: grayscale(100%);
-    /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-}
-
-.zoom1:hover {
-    -webkit-filter: grayscale(0%);
-    /* Safari 6.0 - 9.0 */
-    filter: grayscale(0%);
-    transform: scale(1.2);
-    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-
-.zoom2 {
-    /*YT */
-    background-color: #410000;
-    padding: 50px;
-    background-image: url("Youtube.png");
-    transition: transform .2s;
-    /* Animation */
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
-    border-radius: 60px;
-    -webkit-filter: grayscale(100%);
-    /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-}
-
-.zoom2:hover {
-    -webkit-filter: grayscale(0%);
-    /* Safari 6.0 - 9.0 */
-    filter: grayscale(0%);
-    transform: scale(1.2);
-    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-
-.zoom3 {
-    /*Insta*/
-    background-color: #410000;
-    padding: 50px;
-    background-image: url("Instagram.png");
-    transition: transform .2s;
-    /* Animation */
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
-    border-radius: 60px;
-    -webkit-filter: grayscale(100%);
-    /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-}
-
-.zoom3:hover {
-    -webkit-filter: grayscale(0%);
-    /* Safari 6.0 - 9.0 */
-    filter: grayscale(0%);
-    transform: scale(1.2);
-    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-
-.zoom4 {
-    /*Dis*/
-    background-color: #410000;
-    padding: 50px;
-    background-image: url("Discord.png");
-    transition: transform .2s;
-    /* Animation */
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
-    border-radius: 60px;
-    -webkit-filter: grayscale(100%);
-    /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-}
-
-.zoom4:hover {
-    -webkit-filter: grayscale(0%);
-    /* Safari 6.0 - 9.0 */
-    filter: grayscale(0%);
-    transform: scale(1.2);
-    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-.zoom5 {
-    /*Dis*/
-    background-color: #410000;
-    padding: 50px;
-    background-image: url("1.png");
-    transition: transform .2s;
-    /* Animation */
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
-    border-radius: 60px;
-    -webkit-filter: grayscale(100%);
-    /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-}
-
-.zoom5:hover {
-    -webkit-filter: grayscale(0%);
-    /* Safari 6.0 - 9.0 */
-    filter: grayscale(0%);
-    transform: scale(1.2);
-    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
 #foot{
     background-color: #000000;
-    height: 50px;
+    height: 70px;
     width: auto;
 
 }
@@ -283,4 +185,48 @@ body {
     justify-content: center;
     flex-direction: row;
     text-decoration: none
+}
+/* video background */
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  /* page content */
+  h1, h2 {
+    color: white;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 6rem;
+    margin-top: 30vh; 
+  }
+  
+  h2 { font-size: 3rem; }
+  
+  @media (max-width: 750px) {
+      #background-video { display: none; }
+      body {
+        background-color: #000000;
+        background-size: cover;
+      }
+  }
+
+  .about{
+     background-color: #00000041;
+     backdrop-filter: blur(10px);
+     padding-bottom: 30px;
+  }
+.para{
+    padding-left: 55%;
 }
