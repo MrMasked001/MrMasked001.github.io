@@ -26,9 +26,9 @@ body {
 }
 
 .cont {
-    background-image: linear-gradient(rgb(0, 0, 0) 60%, rgba(255, 255, 0, 0));
+   /* background-image: linear-gradient(rgb(0, 0, 0) 60%, rgba(255, 255, 0, 0));
     
-    
+    */
     width: auto;
     height: 100vh;
     position: relative;
@@ -166,13 +166,13 @@ body {
 }
 .card {
     /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.342);
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.486);
     transition: 0.7s;
   }
   
   /* On mouse-over, add a deeper shadow */
   .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.418);
   }
   
   /* Add some padding inside the card container */
