@@ -1,63 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html {
+    background-color: rgb(34, 0, 0);
+    overflow: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    /* Remove scrollbar space */
+    background: transparent;
+    /* Optional: just make scrollbar invisible */
+}
+
 body {
-    background-color: rgb(36, 36, 36);
-    color: azure;
+    overflow: hidden;
+    /* Hide scrollbars */
 }
 
-.dropdown {
-    /* Border */
-    border: 1px solid rgba(0, 0, 0, 0.3);
+.container {
+    /* Center the content */
+    align-items: center;
     display: flex;
-
-    /* Reset list styles */
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: min-content;
+    flex-direction: column;
+    justify-content: center;
+    /* Take full size */
+    height: 100vh;
+    width: 100%;
+    /* Background */
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.562);
+    background: url('background.jpg') center center / cover no-repeat;
+    /* Font-Properties */
+    color: aliceblue;
 }
 
-.dropdown li {
-    /* Spacing */
-    padding: 8px;
-
-    /* Used to position the sub dropdown */
-    position: relative;
+.footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20px;
 }
 
-/* The sub dropdown */
-.dropdown ul {
-    /* Border */
-    border: 1px solid rgba(0, 0, 0, 0.3);
-
-    /* Hidden by default */
-    display: none;
-
-    /* Absolute position */
-    left: 0;
-    position: absolute;
-    top: 100%;
-
-    /* Reset styles */
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-
-    /* Width */
-    width: 200px;
+.card {
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.596);
+    height: 25vh;
+    width: 50vw;
+    border-radius: 10px;
 }
 
-/* The second level sub dropdown */
-.dropdown ul ul {
-    left: 100%;
-    position: absolute;
-    top: 0;
-}
-
-/* Change background color of list item when being hovered */
-.dropdown li:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
-/* Show the direct sub dropdown when hovering the list item */
-.dropdown li:hover>ul {
-    display: block;
+* {
+    color: rgb(201, 108, 108);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
